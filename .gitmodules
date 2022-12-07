@@ -1,0 +1,3 @@
+[submodule "tools/build-in-docker"]
+	path = tools/build-in-docker
+	url = git@github.com:rahmanuh/build-in-docker.git
