@@ -4,9 +4,9 @@ IMAGE_FEATURES += "ssh-server-dropbear package-management"
 
 IMAGE_INSTALL = "packagegroup-core-boot ${CORE_IMAGE_EXTRA_INSTALL} "
 
-IMAGE_INSTALL += " \
-                wpa-supplicant \
-                hostapd \
+CORE_IMAGE_EXTRA_INSTALL += " \
+                        wpa-supplicant \
+                        hostapd \
 "
 
 
