@@ -1,0 +1,6 @@
+[wortel]  
+name=Wortel repo
+baseurl=http://192.168.50.25:8080
+enabled=1
+gpgcheck=0
+repo_gpgcheck=0
