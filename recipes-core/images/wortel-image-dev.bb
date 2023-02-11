@@ -1,12 +1,12 @@
 SUMMARY = "Wortel image with some features"
 
-IMAGE_FEATURES += "ssh-server-dropbear package-management"
+IMAGE_FEATURES += " ssh-server-openssh package-management "
 
 IMAGE_INSTALL = "packagegroup-core-boot ${CORE_IMAGE_EXTRA_INSTALL} "
 
-CORE_IMAGE_EXTRA_INSTALL += " \
-                        wpa-supplicant \
-                        hostapd \
+IMAGE_INSTALL += " \
+            wpa-supplicant \
+            hostapd \
 "
 
 
