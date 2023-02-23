@@ -57,7 +57,7 @@ require recipes-kernel/linux/linux-yocto.inc
 SRC_URI = "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git;protocol=git;nocheckout=1;name=machine;branch=linux-4.14.y"
 SRC_URI += "file://wortelqarm/defconfig"
 
-LIC_FILES_CHKSUM = "file://COPYING;md5=bbea815ee2795b2f4230826c0c6b8814"
+LIC_FILES_CHKSUM = "file://COPYING;md5=d7810fab7487fb0aad327b76f1be7cd7"
 
 LINUX_VERSION ?= "4.14.y"
 LINUX_VERSION_EXTENSION = "-stable"
